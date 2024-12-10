@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(image.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.Container{
+    width: 420px;
+    background-color:transparent;
+    border: 2px solid rgb(31, 31, 31);
+    border-radius: 10px;
+    color: white;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(200, 200, 200, 0.12) 0px -12px 30px, rgba(149, 149, 149, 0.12) 0px 4px 6px, rgba(131, 131, 131, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.Input-Box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.Input-Box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid rgb(24, 24, 24);
+    border-radius: 20px;
+    outline:none;
+    font-size: 16px;
+    color: rgb(231, 231, 231);
+    padding: 20px 40px 20px 20px;
+}
+
+.Input-Box input::placeholder{
+    color: rgb(124, 124, 124);
+}
+
+.Input-Box i{
+    position: absolute;
+    right: 20px;
+    top: 25%;
+    font-size: 20px;
+}
+
+.Lembrar-senha{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+}
+
+.Lembrar-senha label input{
+    accent-color: white;
+    margin-right: 5px;   
+}
+
+.Lembrar-senha a{
+    text-decoration: none;
+    color: white;
+}
+
+.Lembrar-senha a:hover{
+    text-decoration: underline;
+}
+
+.Login-button{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 0px 2px, rgba(214, 214, 214, 0.65) 0px 4px 6px -1px, rgba(133, 133, 133, 0.08) 0px 1px 0px inset;
+}
+
+.Login-button:hover{
+    background-color: rgb(118, 118, 118);
+    border: 2px solid rgb(255, 255, 255); 
+    transition: 0.7s;
+}
+
+.Registro-link{
+    text-align: center;
+    color: white;
+    margin: 15px;
+    text-decoration: none;
+}
+
+.Registro-link a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    margin-left: 5px;
+}
+
+.Registro-link a:hover{
+    text-decoration: underline;
+}
